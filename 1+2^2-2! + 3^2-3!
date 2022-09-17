@@ -16,9 +16,10 @@ class HelloWorld {
         int n = scn.nextInt();
         
         float q = 0;
-        float fact= Factorial(i);
+        
         
         for(float i = 1; i<= n; i++){
+        float fact= Factorial(i);
             q += (i*i)/ fact;
       
             System.out.println(q);
