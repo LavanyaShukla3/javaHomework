@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static int Factorial(int n){
+        
+        int factorial =1;
+        for(int i = n; i>=1; i--){
+            factorial = factorial*i;
+            
+        }
+        return factorial;
+    }
+       
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        
+        int q = 0;
+        int fact= Factorial(n);
+        
+        for(int i = 1; i<= n; i++){
+            q = (i*i)/ fact;
+            q++;
+            System.out.println(q);
+        }
+        
+    }
+    
+}
