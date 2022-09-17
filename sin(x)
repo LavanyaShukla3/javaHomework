@@ -8,5 +8,7 @@ class HelloWorld {
         
         double sinForDegrees = Math.sin(Math.toRadians(n));
         System.out.println(sinForDegrees);
+        
+        //System.out.println(Math.sin(Math.toRadians(n)));
     }
 }
