@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        //double angleInDegrees = 30;
+        //double sinForDegrees = Math.sin(Math.toRadians(angleInDegrees));
+        
+        double sinForDegrees = Math.sin(Math.toRadians(n));
+        System.out.println(sinForDegrees);
+    }
+}
