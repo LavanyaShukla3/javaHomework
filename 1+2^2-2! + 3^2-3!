@@ -1,9 +1,9 @@
 import java.util.Scanner;
 class HelloWorld {
-    public static int Factorial(int n){
+    public static float Factorial(int n){
         
-        int factorial =1;
-        for(int i = n; i>=1; i--){
+        float factorial =1;
+        for(float i = n; i>=1; i--){
             factorial = factorial*i;
             
         }
@@ -15,10 +15,10 @@ class HelloWorld {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         
-        int q = 0;
-        int fact= Factorial(n);
+        float q = 0;
+        float fact= Factorial(n);
         
-        for(int i = 1; i<= n; i++){
+        for(float i = 1; i<= n; i++){
             q = (i*i)/ fact;
             q++;
             System.out.println(q);
